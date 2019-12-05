@@ -164,7 +164,7 @@
       "tabId": "electronics"
     }
   },
-  "rich-text#home2": {
+  "rich-text#home2": { 
     "props": {
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
