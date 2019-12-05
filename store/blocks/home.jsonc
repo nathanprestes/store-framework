@@ -8,13 +8,12 @@
   },
   "rich-text": {
     "props": {
-      "text": "**Hello, World!**",
+      "text": "*Hello, World!*",
       "textPosition": "RIGHT"
     }
   },
   "info-card#button-right": {
     "props": {
-      "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
@@ -28,16 +27,15 @@
   },
   "info-card#button-left": {
     "props": {
-      "id": "info-card-example2",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "Shining chrome",
-      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br />Available until January 2020.",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+      "callToActionMode": "link",
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "right"
+      "textAlignment": "center"
     }
   }
 }
