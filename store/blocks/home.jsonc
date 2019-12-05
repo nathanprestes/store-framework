@@ -1,7 +1,17 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      
+      "rich-text"
     ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "[**Help**](https://help.vtex.com/en/faq/what-is-vtex-io).\n**Be Bold!**\n*This is italic*",
+      "textPosition": "RIGHT",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
   }
 }
