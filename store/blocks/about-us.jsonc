@@ -122,13 +122,15 @@
   "tab-list.item#home1": {
     "props": {
       "tabId": "majorAppliances",
+      "label": "Major Appliances",
       "text": "Major Appliances",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#home2": {
     "props": {
-      "tabId": "electronics"
+      "tabId": "electronics",
+      "label": "Electronics"
     }
   },
 
@@ -144,23 +146,20 @@
       "rich-text#home1"
     ],
     "props": {
-      "tabId": "majorAppliances"
+      "defaultActiveTab": true
     }
   },
   "rich-text#home1": {
     "props": {
       "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
       "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "font": "t-heading-3" 
     }
   },
   "tab-content.item#home2": {
     "children": [
       "rich-text#home2"
-    ],
-    "props": {
-      "tabId": "electronics"
-    }
+    ]
   },
   "rich-text#home2": {
     "props": {
