@@ -119,7 +119,7 @@
       "tab-list.item#home2"
     ]
   },
-  "tab-list.item#home1": {
+  "tab-list.item#home1": { 
     "props": {
       "tabId": "majorAppliances",
       "label": "Major Appliances",
