@@ -1,12 +1,12 @@
 {
   "menu-item#major-appliances": {
       "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "Major Aplliances"
+        "type": "custom",
+        "highlight": true,
+        "itemProps": {
+          "text": "Major Aplliances"
+        }
       }
-    }
   },
   "menu-item#small-appliances": {
       "props":
@@ -128,5 +128,50 @@
         "text": "Cameras"
       }
     }
-  }
+  },
+
+
+
+
+
+
+  "header-row#menu": {
+      "children": [
+        "header-spacer",
+        "vtex.menu@2.x:menu#categories",
+        "header-spacer"
+      ]
+    },
+    "vtex.menu@2.x:menu#categories": {
+       "children": [
+         "menu-item#major-appliances",
+         "menu-item#small-appliances",
+         "menu-item#electronics"
+       ],
+
+       "props":{
+         "orientation": "horizontal"
+       }
+    },
+    "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "vtex.menu@2.x:menu#major"
+      ]
+    },
+    "vtex.menu@2.x:menu#major": {
+       "children": [
+         "menu-item#refrigerators",
+         "menu-item#ovens",
+         "menu-item#washers"
+       ],
+
+       "props":{
+         "orientation": "vertical"
+       }
+    },
+    "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "vtex.menu@2.x:menu#major"
+      ]
+    }
 }
