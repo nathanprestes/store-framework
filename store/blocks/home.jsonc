@@ -15,9 +15,9 @@
   "info-card#button-right": {
     "props": {
       "id": "info-card-example",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "http://frncomunicacao.com.br/wp-content/themes/frn3/img/fundo01.jpg",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
       "headline": "Vintage Pink",
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
