@@ -5,6 +5,12 @@
         "search-result-layout.customQuery"
     ]
   },
+  "image#landingbanner": {
+   "props": {
+     "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+     "maxHeight": "600px"
+   }
+ },
   "search-result-layout.customQuery": {
     "props":{
         "orderByField": "OrderByReleaseDateDESC",
