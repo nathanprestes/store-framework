@@ -62,7 +62,7 @@
         "props":{
             "initialSelection": "empty",
             "showValueNameForImageVariation": true,
-            "showVariationsErrorMessage": true
+            "showVariationsErrorMessage": true 
         }
     }
 
